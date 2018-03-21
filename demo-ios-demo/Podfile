@@ -1,0 +1,25 @@
+ 
+ target ‘GZHProject’do
+ pod ‘ReactiveCocoa’,’2.1.8’
+ pod ‘JRSwizzle’
+ pod 'RongCloudIM/IMLib', '~> 2.8.3'
+ pod 'RongCloudIM/IMKit', '~> 2.8.3'
+ pod 'AFNetworking'
+pod 'MJRefresh'
+#空数据的处理
+pod 'NullSafe'
+# 友盟
+pod ‘UMengUShare/Social/ReducedWeChat'
+pod ‘UMengUShare/Social/ReducedQQ'
+pod ‘UMengUShare/Social/ReducedSina'
+pod ‘UMengUShare/UI’
+
+pod 'IQKeyboardManager'
+pod 'MJExtension'
+pod 'SVProgressHUD'
+pod 'HMSegmentedControl'
+pod 'YYCache'
+pod ‘BaiduMapKit’
+pod 'TZImagePickerController'
+
+end

@@ -1,0 +1,36 @@
+//
+//  ZH.pch
+//  GZHProject
+//
+//  Created by gzh on 17/3/6.
+//  Copyright © 2017年 gzh. All rights reserved.
+//
+
+#ifndef ZH_pch
+#define ZH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <UIKit/UIKit.h>
+#import <JRSwizzle.h>
+
+#import "UIViewController+ZHViewCategory.h"
+#import "ZHBaseViewController.h"
+#import <RongIMKit/RongIMKit.h>
+#import <RongIMLib/RongIMLib.h>
+#import "ZHDefine.h"
+
+//id =1 name =zh
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+
+#define RongAPPKey @"cpj2xarlc1uhn"
+#define RongAPPToken @"DfOyKnOwoqOfIS2LMn6ZGtJMnoFKjlXZOpQc8usMzg/Bvi8KyndIogEDM7zqKc9BWn5wvlYMssfhztoniyQ4Jg=="
+
+
+
+
+#endif /* ZH_pch */
